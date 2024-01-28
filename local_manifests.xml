@@ -1,0 +1,19 @@
+<manifest>
+    <remote name="my-gh" fetch="https://github.com/mmtrt" />
+    <remote name="my-gl" fetch="https://gitlab.com/mmtrt" />
+    <remote name="los-gh" fetch="https://github.com/LineageOS" />
+    <remote name="pqed-gh" fetch="https://github.com/PQEnablers-Devices" />
+    <remote name="d810-gh" fetch="https://github.com/MTK-DM-810-UNIFIED" />
+
+    <project path="vendor/xiaomi/dolby" name="vendor_xiaomi_dolby-everpal" remote="my-gl" revision="thirteen"/>
+    <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera-everpal" remote="my-gl" revision="thirteen"/>
+    <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="mix"/>
+    <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gl" revision="thirteen" />
+    <project path="device/xiaomi/everpal-kernel" name="device_xiaomi_everpal-kernel" remote="my-gl" revision="thirteen" />
+    <remve-project name="android_hardware_mediatek" />
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="d810-gh" revision="lineage-20-foss" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los-gh" revision="lineage-20" />
+    <remove-project name="android_device_mediatek_sepolicy_vndr"/>
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="d810-gh" revision="lineage-20" />
+</manifest>
+
