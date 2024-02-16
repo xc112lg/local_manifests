@@ -1,19 +1,24 @@
 <manifest>
-    <remote name="my-gh" fetch="https://github.com/mmtrt" />
-    <remote name="my-gl" fetch="https://gitlab.com/mmtrt" />
-    <remote name="los-gh" fetch="https://github.com/LineageOS" />
-    <remote name="pqed-gh" fetch="https://github.com/PQEnablers-Devices" />
-    <remote name="d810-gh" fetch="https://github.com/MTK-DM-810-UNIFIED" />
-
-    <project path="vendor/xiaomi/dolby" name="vendor_xiaomi_dolby-everpal" remote="my-gl" revision="thirteen"/>
-    <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera-everpal" remote="my-gl" revision="thirteen"/>
-    <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="mix"/>
-    <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gl" revision="thirteen" />
-    <project path="device/xiaomi/everpal-kernel" name="device_xiaomi_everpal-kernel" remote="my-gl" revision="thirteen" />
-    <remove-project name="android_hardware_mediatek" />
-    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="d810-gh" revision="lineage-20-foss" />
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los-gh" revision="lineage-20" />
-    <remove-project name="android_device_mediatek_sepolicy_vndr"/>
-    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="d810-gh" revision="lineage-20" />
+  <project name="LineageOS/android_device_lge_h830" path="device/lge/h830" remote="github" revision="lineage-21" />
+  <project name="LineageOS/android_device_lge_h850" path="device/lge/h850" remote="github" revision="lineage-21" />
+  <project name="LineageOS/android_device_lge_rs988" path="device/lge/rs988" remote="github" revision="lineage-21" />
+  <project name="LineageOS/android_device_lge_h870" path="device/lge/h870" remote="github" revision="lineage-21" />
+  <project name="LineageOS/android_device_lge_h872" path="device/lge/h872" remote="github" revision="lineage-21" />
+  <project name="LineageOS/android_device_lge_us997" path="device/lge/us997" remote="github" revision="lineage-21" />
+  <project name="LineageOS/android_device_lge_g5-common" path="device/lge/g5-common" remote="github" revision="lineage-21" />
+  <project name="LineageOS/android_device_lge_g6-common" path="device/lge/g6-common" remote="github" revision="lineage-21" />
+  <project name="LineageOS/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" revision="lineage-21" />
+  <project name="xc112lg/msm8996_lge_kernel" path="kernel/lge/msm8996" remote="github" revision="LGE-4.4-new-Swan2000-LOS20" />
+  <project name="LineageOS/android_hardware_lge" path="hardware/lge" remote="github" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_lge_h830" path="vendor/lge/h830" remote="github" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_lge_h850" path="vendor/lge/h850" remote="github" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_lge_rs988" path="vendor/lge/rs988" remote="github" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_lge_h870" path="vendor/lge/h870" remote="github" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_lge_h872" path="vendor/lge/h872" remote="github" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_lge_us997" path="vendor/lge/us997" remote="github" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_lge_msm8996-common" path="vendor/lge/msm8996-common" remote="github" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_lge_g5-common" path="vendor/lge/g5-common" remote="github" revision="lineage-21" />
+  <project name="TheMuppets/proprietary_vendor_lge_g6-common" path="vendor/lge/g6-common" remote="github" revision="lineage-21" />
+  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-21" />
 </manifest>
 
