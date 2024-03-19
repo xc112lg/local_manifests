@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="LineageOS/android_device_lge_h830" path="device/lge/h830" remote="github" revision="lineage-21" />
-  <project name="LineageOS/android_device_lge_h850" path="device/lge/h850" remote="github" revision="lineage-21" />
-  <project name="LineageOS/android_device_lge_rs988" path="device/lge/rs988" remote="github" revision="lineage-21" />
-  <project name="LineageOS/android_device_lge_h870" path="device/lge/h870" remote="github" revision="lineage-21" />
-  <project name="LineageOS/android_device_lge_h872" path="device/lge/h872" remote="github" revision="lineage-21" />
-  <project name="LineageOS/android_device_lge_us997" path="device/lge/us997" remote="github" revision="lineage-21" />
-  <project name="LineageOS/android_device_lge_g5-common" path="device/lge/g5-common" remote="github" revision="lineage-21" />
-  <project name="LineageOS/android_device_lge_g6-common" path="device/lge/g6-common" remote="github" revision="lineage-21" />
-  <project name="LineageOS/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" revision="lineage-21" />
-  <project name="LGE-G5-G6-V20/msm8996_lge_kernel" path="kernel/lge/msm8996" remote="github" revision="Swan2000-lineage-21" />
-  <project name="LineageOS/android_hardware_lge" path="hardware/lge" remote="github" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_lge_h830" path="vendor/lge/h830" remote="github" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_lge_h850" path="vendor/lge/h850" remote="github" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_lge_rs988" path="vendor/lge/rs988" remote="github" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_lge_h870" path="vendor/lge/h870" remote="github" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_lge_h872" path="vendor/lge/h872" remote="github" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_lge_us997" path="vendor/lge/us997" remote="github" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_lge_msm8996-common" path="vendor/lge/msm8996-common" remote="github" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_lge_g5-common" path="vendor/lge/g5-common" remote="github" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_lge_g6-common" path="vendor/lge/g6-common" remote="github" revision="lineage-21" />
-  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-21" />
-  <remove-project name="crdroidandroid/android_packages_apps_WallpaperPicker2" />
-  <project name="LineageOS/android_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="github" revision="lineage-21.0" />
+	<!-- Device repos -->
+	<project name="LineageOS/android_device_samsung_a7y17lte" path="device/samsung/a7y17lte" revision="lineage-19.1" />
+	<project name="LineageOS/android_device_samsung_a5y17lte" path="device/samsung/a5y17lte" revision="lineage-19.1" />
+	<project name="SirRGB/android_device_samsung_universal7880-common" path="device/samsung/universal7880-common" revision="lineage-21" />
+	<project name="filiprrs/android_kernel_samsung_universal7880" path="kernel/samsung/universal7880" revision="lineage-20" />
+	<project name="SirRGB/proprietary_vendor_samsung" path="vendor/samsung" revision="lineage-19.1" />
+
+	<!-- Dependencies -->
+	<project name="LineageOS/android_hardware_samsung" path="hardware/samsung" revision="lineage-21" />
+	<project name="droid-legacy/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" revision="lineage-19.1" />
+	<project name="LineageOS/android_hardware_samsung_slsi_exynos7880" path="hardware/samsung_slsi/exynos7880" revision="lineage-18.1" />
+	<project name="LineageOS/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" revision="lineage-19.1" />
+	<project name="LineageOS/android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" revision="lineage-19.1" />
 </manifest>
