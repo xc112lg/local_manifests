@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/xiaomi/vayu" name="bagaskara815/device_xiaomi_vayu" remote="github" revision="14-derp" />
-  <project path="vendor/xiaomi/vayu" name="bagaskara815/vendor_xiaomi_vayu" remote="github" revision="14-derp" />
+  <project path="device/xiaomi/vayu" name="bagaskara815/device_xiaomi_vayu" remote="github" revision="15-derp" />
+  <project path="vendor/xiaomi/vayu" name="bagaskara815/vendor_xiaomi_vayu" remote="github" revision="15-derp" />
   <project path="kernel/xiaomi/vayu" name="bagaskara815/kernel_xiaomi_vayu" remote="github" revision="14-derp" />
-  <project path="hardware/xiaomi" name="DerpFest-Devices/hardware_xiaomi" remote="github" revision="14" />
+  <project path="hardware/xiaomi" name="DerpFest-Devices/hardware_xiaomi" remote="github" revision="15" />
 </manifest>
