@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/xiaomi/vayu" name="bagaskara815/device_xiaomi_vayu" remote="github" revision="15-derp" />
-  <project path="vendor/xiaomi/vayu" name="bagaskara815/vendor_xiaomi_vayu" remote="github" revision="15-derp" />
-  <project path="kernel/xiaomi/vayu" name="bagaskara815/kernel_xiaomi_vayu" remote="github" revision="14-derp" />
-  <project path="hardware/xiaomi" name="bagaskara815/hardware_xiaomi" remote="github" revision="15.2" />
+
+  <remote name="github1" fetch="https://github.com" />
+  <project path="device/xiaomi/vayu" name="bagaskara815/device_xiaomi_vayu" remote="github1" revision="15-derp" />
+  <project path="vendor/xiaomi/vayu" name="bagaskara815/vendor_xiaomi_vayu" remote="github1" revision="15-derp" />
+  <project path="kernel/xiaomi/vayu" name="bagaskara815/kernel_xiaomi_vayu" remote="github1" revision="14-derp" />
+  <project path="hardware/xiaomi" name="bagaskara815/hardware_xiaomi" remote="github1" revision="15.2" />
 </manifest>
