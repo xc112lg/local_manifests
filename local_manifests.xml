@@ -8,7 +8,7 @@
   <project name="Jayedkhan800/android_hardware_mediatek" path="hardware/mediatek" remote="github1" revision="lineage-23.0" />  
   <project name="Jayedkhan800/device_xiaomi_blossom-kernel" path="device/xiaomi/blossom-kernel" remote="github1" revision="sixteen" />  
   <project name="crdroidandroid/proprietary_vendor_xiaomi_blossom" path="vendor/xiaomi/blossom" remote="github1" revision="16.0" />  
-  <project name="crdroidandroid/proprietary_vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" remote="gitlab1" revision="16.0" />
+  <project name="crdroidandroid/proprietary_vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" remote="gitlab1" revision="16.0-psyche" />
   
 
   
