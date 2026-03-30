@@ -9,7 +9,7 @@
   <project name="Jayedkhan800/device_xiaomi_blossom-kernel" path="device/xiaomi/blossom-kernel" remote="github1" revision="sixteen" />  
   <project name="crdroidandroid/proprietary_vendor_xiaomi_blossom" path="vendor/xiaomi/blossom" remote="github1" revision="16.0" />  
   <project name="Jayedkhan800/vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" remote="github1" revision="main" />
-  
+  <project path="packages/apps/DolbyAtmos" name="crdroidandroid/android_packages_apps_DolbyAtmos" remote="github1" revision="16.0" />
 
   
 </manifest>
