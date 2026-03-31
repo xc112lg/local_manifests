@@ -10,6 +10,6 @@
   <project name="crdroidandroid/proprietary_vendor_xiaomi_blossom" path="vendor/xiaomi/blossom" remote="github1" revision="16.0" />  
   <project name="Jayedkhan800/vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" remote="github1" revision="main" />
   <project path="hardware/dolby" name="Jayedkhan800/hardware_dolby" remote="github1" revision="16" />
-
+  <project path="packages/apps/RevampedFMRadio" name="begonia-dev/android_packages_apps_RevampedFMRadio" remote="github1" revision="14.0" />
   
 </manifest>
