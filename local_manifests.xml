@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 <remote name="github1" fetch="https://github.com" />
   <remote name="gitlab1" fetch="https://gitlab.com" />
-<manifest>
+
 
 
   <project name="crdroidandroid/android_device_xiaomi_vayu" path="device/xiaomi/vayu" remote="github1" revision="16.0" />
