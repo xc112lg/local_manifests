@@ -3,7 +3,7 @@
 
 <remote name="github1" fetch="https://github.com" />
   <remote name="gitlab1" fetch="https://gitlab.com" />
-  <project name="crdroidandroid/android_device_xiaomi_blossom" path="device/xiaomi/blossom" remote="github1" revision="16.0" />
+  <project name="0kaarun/android_device_xiaomi_blossom" path="device/xiaomi/blossom" remote="github1" revision="A16-QP2" />
   <project name="Jayedkhan800/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github1" revision="sixteen" />  
   <project name="Jayedkhan800/android_hardware_mediatek" path="hardware/mediatek" remote="github1" revision="lineage-23.0" />  
   <project name="Jayedkhan800/device_xiaomi_blossom-kernel" path="device/xiaomi/blossom-kernel" remote="github1" revision="sixteen" />  
