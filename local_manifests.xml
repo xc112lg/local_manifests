@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  
+  <!-- Remotes -->
+  <remote name="HaiKito" fetch="https://github.com/HaiKito18" />
+  
+  <!-- Device Trees -->
+  <project path="device/xiaomi/blossom" name="device_xiaomi_blossom" remote="HaiKito" revision="A16" />
 
-<remote name="github1" fetch="https://github.com" />
-  <remote name="gitlab1" fetch="https://gitlab.com" />
-  <project name="0kaarun/android_device_xiaomi_blossom" path="device/xiaomi/blossom" remote="github1" revision="A16-QP2" />
-  <project name="Jayedkhan800/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github1" revision="sixteen" />  
-  <project name="Jayedkhan800/android_hardware_mediatek" path="hardware/mediatek" remote="github1" revision="lineage-23.0" />  
-  <project name="Jayedkhan800/device_xiaomi_blossom-kernel" path="device/xiaomi/blossom-kernel" remote="github1" revision="sixteen" />  
-  <project name="crdroidandroid/proprietary_vendor_xiaomi_blossom" path="vendor/xiaomi/blossom" remote="github1" revision="16.0" />  
-  <project name="Jayedkhan800/vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" remote="github1" revision="main" />
-  <project path="hardware/dolby" name="Jayedkhan800/hardware_dolby" remote="github1" revision="16" />
-  <project path="packages/apps/RevampedFMRadio" name="0kaarun/android_packages_apps_RevampedFMRadio" remote="github1" revision="lineage-23.0" />
+  <!-- SELinux policies -->
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr_lineage23" remote="HaiKito" revision="lineage-23" />
+
+  <!-- Hardware Supports -->
+  <project path="hardware/mediatek" name="hardware_mediatek" remote="HaiKito" revision="main" />
+
+  <!-- kernel tree -->
+  <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel" remote="HaiKito" revision="Asuna">
+    <linkfile src="headers" dest="kernel/xiaomi/blossom" />
+  </project>
+
+  <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/blossom" name="Vendor_xiaomi_blossom" remote="HaiKito" revision="A16" />
+
+  <!-- MiuiCamera -->
+  <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="HaiKito" revision="main" />
+  
+  <!-- FmRadio -->
+  <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="HaiKito" revision="mtk" />
   
 </manifest>
