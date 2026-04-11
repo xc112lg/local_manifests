@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  
-  <!-- Remotes -->
-  <remote name="HaiKito" fetch="https://github.com/HaiKito18" />
-  
-  <!-- Device Trees -->
-  <project path="device/xiaomi/blossom" name="device_xiaomi_blossom" remote="HaiKito" revision="A16" />
+
+	<remote name="zy" fetch="https://github.com/zyexro" />
+	<remote name="mindthegapps" fetch="https://gitlab.com/MindTheGapps" />
+	<remote name="LOS" fetch="https://github.com/LineageOS" />
+	<remote name="gh" fetch="https://github.com" />
+
+  <!-- device tree -->
+  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="zy" revision="sixteen-qpr0" />
 
   <!-- SELinux policies -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr_lineage23" remote="HaiKito" revision="lineage-23" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LOS" revision="23.0" />
 
-  <!-- Hardware Supports -->
-  <project path="hardware/mediatek" name="hardware_mediatek" remote="HaiKito" revision="main" />
+  <!-- hardware supports -->
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LOS" revision="23.0" />
 
   <!-- kernel tree -->
-  <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel" remote="HaiKito" revision="Asuna">
+  <project path="device/xiaomi/blossom-kernel" name="android_device_xiaomi_blossom-kernel" remote="zy" revision="main" >
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
   </project>
 
-  <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/blossom" name="Vendor_xiaomi_blossom" remote="HaiKito" revision="A16" />
+  <!-- vendor tree -->
+  <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="zy" revision="sixteen-qpr0" />
 
-  <!-- MiuiCamera -->
-  <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="HaiKito" revision="main" />
-  
-  <!-- FmRadio -->
-  <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="HaiKito" revision="mtk" />
-  
+
+  <!-- RevampedFMRadio -->
+  <project path="packages/apps/RevampedFMRadio" name="iusmac/RevampedFMRadio" remote="gh" revision="mtk" />
+  <remove-project path="packages/apps/FMRadio"/>
+
+ <!-- GApps --> 
+  <project path="vendor/gapps" name="vendor_gapps" remote="mindthegapps" revision="baklava" />
+
 </manifest>
