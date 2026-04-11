@@ -4,6 +4,7 @@
 	<remote name="zy" fetch="https://github.com/zyexro" />
 	<remote name="mindthegapps" fetch="https://gitlab.com/MindTheGapps" />
 	<remote name="LOS" fetch="https://github.com/LineageOS" />
+	<remote name="CR" fetch="https://github.com/crdroidandroid" />
 	<remote name="gh" fetch="https://github.com" />
 
   <!-- device tree -->
@@ -13,7 +14,7 @@
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LOS" revision="lineage-23.2" />
 
   <!-- hardware supports -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LOS" revision="lineage-23.2" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="CR" revision="16.0" />
 
   <!-- kernel tree -->
   <project path="device/xiaomi/blossom-kernel" name="android_device_xiaomi_blossom-kernel" remote="zy" revision="main" >
