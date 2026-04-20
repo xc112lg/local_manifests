@@ -7,9 +7,11 @@
 	<remote name="CR" fetch="https://github.com/crdroidandroid" />
 	<remote name="gh" fetch="https://github.com" />
 
-  <!-- device tree -->
+  <!-- device tree 
   <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="zy" revision="sixteen-qpr0" />
+ -->
 
+	  <project path="device/xiaomi/blossom" name="spayke3/android_device_xiaomi_blossom" revision="patch-1" />
   <!-- SELinux policies -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LOS" revision="lineage-23.2" />
 
