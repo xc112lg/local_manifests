@@ -19,6 +19,7 @@
   <project path="hardware/mediatek" name="haikito18/android_hardware_mediatek" remote="gitlab1" revision="lineage-23.2" /> 
   <project name="HaiKito18/ViaBrowser" path="packages/apps/ViaBrowser" remote="gh" revision="main" />
 	<project name="HaiKito18/Dolby-blossom" path="hardware/dolby" remote="cb" revision="sony-1.5" />
-
+	<remove-project path="external/setupcompat" name="LineageOS/android_external_setupcompat" groups="pdk,sysui-studio" />
+		<remove-project path="external/setupcompat" name="xc112lg/android_external_setupcompat" remote="gh" revision="patch-1" />
 
 </manifest>
