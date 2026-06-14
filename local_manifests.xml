@@ -5,7 +5,7 @@
     <remote name="gitlab1" fetch="https://gitlab.com" />
 	<remote name="cb" fetch="https://codeberg.org" />
 
-  <project name="xc112lg/android_device_xiaomi_blossom-1" path="device/xiaomi/blossom" remote="gh" revision="patch-7" />
+  <project name="xc112lg/android_device_xiaomi_blossom-1" path="device/xiaomi/blossom" remote="gh" revision="patch-8" />
   <project name="HaiKito18/android_device_mediatek_sepolicy_vndr_lineage23" path="device/mediatek/sepolicy_vndr" remote="gh" revision="lineage-23.2" />  
   <project name="HaiKito18/vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" remote="gh" revision="main" />  
   <project name="haikito18/proprietary_vendor_xiaomi_blossom" path="vendor/xiaomi/blossom" remote="gitlab1" revision="A16-qpr2" /> 
