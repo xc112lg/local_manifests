@@ -20,5 +20,7 @@
   <project path="hardware/mediatek" name="haikito18/android_hardware_mediatek" remote="gitlab1" revision="lineage-23.2" /> 
   <project name="HaiKito18/ViaBrowser" path="packages/apps/ViaBrowser" remote="gh" revision="main" />
   <project name="HaiKito18/Dolby-blossom" path="hardware/dolby" remote="cb" revision="sony-1.5" />
-
+  <!-- RevampedFMRadio -->
+  <project path="packages/apps/RevampedFMRadio" name="TracenPlayground/packages_apps_RevampedFMRadio" remote="gh" revision="mtk" />
+  <remove-project path="packages/apps/FMRadio"/>
 </manifest>
