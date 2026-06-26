@@ -14,7 +14,7 @@
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
   </project>-->
 
-	   <project path="device/xiaomi/blossom-kernel" name="xc112lg/android_device_xiaomi_blossom-kernel" remote="gh" revision="main" >
+	   <project path="device/xiaomi/blossom-kernel" name="zyexro/android_device_xiaomi_blossom-kernel" remote="gh" revision="main" >
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
   </project> 
   <project path="hardware/mediatek" name="haikito18/android_hardware_mediatek" remote="gitlab1" revision="lineage-23.2" /> 
