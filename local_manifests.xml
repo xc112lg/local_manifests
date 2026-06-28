@@ -10,13 +10,13 @@
   <project name="HaiKito18/android_device_mediatek_sepolicy_vndr_lineage23" path="device/mediatek/sepolicy_vndr" remote="gh" revision="lineage-23.2" />  
   <project name="HaiKito18/vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" remote="gh" revision="main" />  
   <project name="haikito18/proprietary_vendor_xiaomi_blossom" path="vendor/xiaomi/blossom" remote="gitlab1" revision="A16-qpr2" /> 
-<!--	  <project path="device/xiaomi/blossom-kernel" name="HaiKito18/device_xiaomi_blossom-kernel" remote="gh" revision="Asuna" >
+	  <project path="device/xiaomi/blossom-kernel" name="HaiKito18/device_xiaomi_blossom-kernel" remote="gh" revision="Asuna" >
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
-  </project>-->
+  </project>
 
-	   <project path="device/xiaomi/blossom-kernel" name="zyexro/android_device_xiaomi_blossom-kernel" remote="gh" revision="main" >
+	  <!-- <project path="device/xiaomi/blossom-kernel" name="zyexro/android_device_xiaomi_blossom-kernel" remote="gh" revision="main" >
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
-  </project> 
+  </project> -->
   <project path="hardware/mediatek" name="haikito18/android_hardware_mediatek" remote="gitlab1" revision="lineage-23.2" /> 
   <project name="HaiKito18/ViaBrowser" path="packages/apps/ViaBrowser" remote="gh" revision="main" />
   <project name="HaiKito18/Dolby-blossom" path="hardware/dolby" remote="cb" revision="sony-1.5" />
