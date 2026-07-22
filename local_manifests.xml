@@ -6,7 +6,9 @@
   <project name="LineageOS/android_device_lge_h850" path="device/lge/h850" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_device_lge_rs988" path="device/lge/rs988" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_device_lge_h870" path="device/lge/h870" remote="gh" revision="lineage-22.2" />
+    <project name="LineageOS/android_device_lge_h870d" path="device/lge/h870d" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_device_lge_h872" path="device/lge/h872" remote="gh" revision="lineage-22.2" />
+  <project name="LineageOS/android_device_lge_h873" path="device/lge/h873" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_device_lge_us997" path="device/lge/us997" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_device_lge_g5-common" path="device/lge/g5-common" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_device_lge_g6-common" path="device/lge/g6-common" remote="gh" revision="lineage-22.2" />
@@ -18,7 +20,9 @@
   <project name="TheMuppets/proprietary_vendor_lge_h850" path="vendor/lge/h850" remote="gh" revision="lineage-22.2" />
   <project name="TheMuppets/proprietary_vendor_lge_rs988" path="vendor/lge/rs988" remote="gh" revision="lineage-22.2" />
   <project name="TheMuppets/proprietary_vendor_lge_h870" path="vendor/lge/h870" remote="gh" revision="lineage-22.2" />
+  <project name="TheMuppets/proprietary_vendor_lge_h870d" path="vendor/lge/h870d" remote="gh" revision="lineage-22.2" />
   <project name="TheMuppets/proprietary_vendor_lge_h872" path="vendor/lge/h872" remote="gh" revision="lineage-22.2" />
+  <project name="TheMuppets/proprietary_vendor_lge_h873" path="vendor/lge/h873" remote="gh" revision="lineage-22.2" />
   <project name="TheMuppets/proprietary_vendor_lge_us997" path="vendor/lge/us997" remote="gh" revision="lineage-22.2" />
   <project name="TheMuppets/proprietary_vendor_lge_msm8996-common" path="vendor/lge/msm8996-common" remote="gh" revision="lineage-22.2" />
   <project name="TheMuppets/proprietary_vendor_lge_g5-common" path="vendor/lge/g5-common" remote="gh" revision="lineage-22.2" />
