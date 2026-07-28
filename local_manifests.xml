@@ -30,5 +30,5 @@
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="gh" revision="lineage-22.2" />
 
     <remove-project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs,sysui-studio" remote="evo" />
-  <project path="packages/apps/Launcher3" name="LineageOS/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc"  revision="lineage-23.2"  />
+  <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" remote="gh"  revision="15.0"  />
 </manifest>
