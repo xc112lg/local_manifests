@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="gh" fetch="https://github.com" />
+
+    <remote  name="evo"
+           fetch="https://github.com/Evolution-X"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/vic" />
   	  <project name="xc112lg/key15" path="vendor/evolution-priv/keys" remote="gh" revision="main" />
   <project name="LineageOS/android_device_lge_h830" path="device/lge/h830" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_device_lge_h850" path="device/lge/h850" remote="gh" revision="lineage-22.2" />
@@ -28,4 +34,7 @@
   <project name="TheMuppets/proprietary_vendor_lge_g5-common" path="vendor/lge/g5-common" remote="gh" revision="lineage-22.2" />
   <project name="TheMuppets/proprietary_vendor_lge_g6-common" path="vendor/lge/g6-common" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="gh" revision="lineage-22.2" />
+
+  <remove-project path="packages/apps/SetupWizard" name="crdroidandroid/android_packages_apps_SetupWizard" remote="crdroid" />
+    <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="evo" />
 </manifest>
