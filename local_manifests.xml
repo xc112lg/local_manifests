@@ -34,6 +34,4 @@
   <project name="TheMuppets/proprietary_vendor_lge_g6-common" path="vendor/lge/g6-common" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="gh" revision="lineage-22.2" />
 
-   <remove-project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" groups="pdk" remote="crdroid" />
-  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="evo" />
 </manifest>
