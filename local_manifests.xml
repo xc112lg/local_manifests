@@ -2,11 +2,6 @@
 <manifest>
   <remote name="gh" fetch="https://github.com" />
 
-    <remote  name="evo"
-           fetch="https://github.com/Evolution-X"
-           sync-c="true"
-           sync-j="4"
-           revision="refs/heads/vic" />
   	  <project name="xc112lg/key15" path="vendor/evolution-priv/keys" remote="gh" revision="main" />
   <project name="LineageOS/android_device_lge_h830" path="device/lge/h830" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_device_lge_h850" path="device/lge/h850" remote="gh" revision="lineage-22.2" />
