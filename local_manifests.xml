@@ -3,10 +3,8 @@
 
   		  <remote name="gh" fetch="https://github.com" />
 
-  <remote name="aosp2"
-        fetch="https://android.googlesource.com"
-        review="android-review.googlesource.com"
-        revision="refs/heads/llvm-r536225-release" />
+        <remote name="crdroid-gitlab" fetch="https://gitlab.com" />
+
   	  <project name="xc112lg/key1" path="vendor/evolution-priv/keys" remote="gh" revision="main" />
   <project name="LineageOS/android_device_lge_h830" path="device/lge/h830" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_device_lge_h850" path="device/lge/h850" remote="gh" revision="lineage-22.2" />
@@ -31,7 +29,6 @@
   <project name="TheMuppets/proprietary_vendor_lge_g6-common" path="vendor/lge/g6-common" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="gh" revision="lineage-22.2" />
 
-
-  <remove-project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" />
-<project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk,sysui-studio" clone-depth="1" remote="aosp2" />
+  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r536225" clone-depth="1" remote="crdroid-gitlab" />
+  
 </manifest>
