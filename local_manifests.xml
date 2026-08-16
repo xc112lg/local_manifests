@@ -29,6 +29,6 @@
   <project name="TheMuppets/proprietary_vendor_lge_g6-common" path="vendor/lge/g6-common" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="gh" revision="lineage-22.2" />
 
-  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r536225" clone-depth="1" remote="crdroid-gitlab" revision="15.0" />
+  <project path="prebuilts/clang/host/linux-x86/clang/r536225" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r536225" clone-depth="1" remote="crdroid-gitlab" revision="15.0" />
   
 </manifest>
