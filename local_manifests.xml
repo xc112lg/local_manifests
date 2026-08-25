@@ -2,7 +2,7 @@
 <manifest>
   <remote name="gh" fetch="https://github.com" />
 
-  <project name="xc112lg/cr16" path="vendor/lineage-priv/keys" remote="gh" revision="main" />
+  <project name="xc112lg/testkey" path="vendor/lineage-priv/keys" remote="gh" revision="main" />
   <project name="LineageOS/android_device_lge_h830" path="device/lge/h830" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_device_lge_h850" path="device/lge/h850" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_device_lge_rs988" path="device/lge/rs988" remote="gh" revision="lineage-22.2" />
