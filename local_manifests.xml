@@ -30,12 +30,18 @@
   <project name="TheMuppets/proprietary_vendor_lge_g6-common" path="vendor/lge/g6-common" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="gh" revision="lineage-22.2" />
 
+<remove-project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-22.2-caf-msm8996" />
+  <remove-project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-22.2-caf-msm8996" />
+  <remove-project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-22.2-caf-msm8996" />
+  
     <project path="hardware/qcom-caf/msm8996"
          name="Inkypen79/android_hardware_qcom-caf_msm8996"
          remote="gh"
          revision="lineage-23.2"
          groups="qcom"
          clone-depth="1" />
+
+  
 <project path="hardware/qcom-caf/msm8996/audio" name="Inkypen79/android_hardware_qcom-caf_msm8996_audio" remote="gh" revision="lineage-23.2" groups="qcom" clone-depth="1" />
 <project path="hardware/qcom-caf/msm8996/display" name="Inkypen79/android_hardware_qcom-caf_msm8996_display" remote="gh" revision="lineage-23.2" groups="qcom" clone-depth="1" />
  <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="gh" revision="lineage-23.0-caf-msm8996" />
