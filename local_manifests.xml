@@ -33,11 +33,11 @@
     <project path="hardware/qcom-caf/msm8996"
          name="Inkypen79/android_hardware_qcom-caf_msm8996"
          remote="gh"
-         revision="lineage-23.2"
+         revision="lineage-24"
          groups="qcom"
          clone-depth="1" />
-<project path="hardware/qcom-caf/msm8996/audio" name="Inkypen79/android_hardware_qcom-caf_msm8996_audio" remote="gh" revision="lineage-23.2" groups="qcom" clone-depth="1" />
-<project path="hardware/qcom-caf/msm8996/display" name="Inkypen79/android_hardware_qcom-caf_msm8996_display" remote="gh" revision="lineage-23.2" groups="qcom" clone-depth="1" />
+<project path="hardware/qcom-caf/msm8996/audio" name="Inkypen79/android_hardware_qcom-caf_msm8996_audio" remote="gh" revision="lineage-24" groups="qcom" clone-depth="1" />
+<project path="hardware/qcom-caf/msm8996/display" name="Inkypen79/android_hardware_qcom-caf_msm8996_display" remote="gh" revision="lineage-24" groups="qcom" clone-depth="1" />
  <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="gh" revision="lineage-23.0-caf-msm8996" />
 
 
