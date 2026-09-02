@@ -12,8 +12,8 @@
   <project name="LineageOS/android_device_lge_h873" path="device/lge/h873" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_device_lge_us997" path="device/lge/us997" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_device_lge_g5-common" path="device/lge/g5-common" remote="gh" revision="lineage-22.2" />
-  <project name="LineageOS/android_device_lge_g6-common" path="device/lge/g6-common" remote="gh" revision="lineage-22.2" />
-  <project name="xc112lg/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="gh" revision="13" /> 
+  <project name="xc112lg/android_device_lge_g6-common" path="device/lge/g6-common" remote="gh" revision="test" />
+  <project name="xc112lg/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="gh" revision="1" /> 
 <!--  <project name="LineageOS/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="gh" revision="lineage-22.2" />  -->
   <project name="xc112lg/android_kernel_lge_msm8996_r2" path="kernel/lge/msm8996" remote="gh" revision="los23" />
   <project name="LineageOS/android_hardware_lge" path="hardware/lge" remote="gh" revision="lineage-23.2" />
