@@ -8,7 +8,7 @@
   <project name="LineageOS/android_device_lge_rs988" path="device/lge/rs988" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_device_lge_h870" path="device/lge/h870" remote="gh" revision="lineage-22.2" />
     <project name="LineageOS/android_device_lge_h870d" path="device/lge/h870d" remote="gh" revision="lineage-22.2" />
-  <project name="LineageOS/android_device_lge_h872" path="device/lge/h872" remote="gh" revision="lineage-22.2" />
+  <project name="xc112lg/android_device_lge_h872" path="device/lge/h872" remote="gh" revision="patch-1" />
   <project name="LineageOS/android_device_lge_h873" path="device/lge/h873" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_device_lge_us997" path="device/lge/us997" remote="gh" revision="lineage-22.2" />
   <project name="LineageOS/android_device_lge_g5-common" path="device/lge/g5-common" remote="gh" revision="lineage-22.2" />
