@@ -4,7 +4,7 @@
 
     <project name="xc112lg/key17" path="vendor/evolution-priv/keys" remote="gh" revision="evo" />
   <project name="LineageOS/android_device_lge_h830" path="device/lge/h830" remote="gh" revision="lineage-22.2" />
-  <project name="LineageOS/android_device_lge_h850" path="device/lge/h850" remote="gh" revision="lineage-22.2" />
+  <project name="xc112lg/android_device_lge_h850" path="device/lge/h850" remote="gh" revision="lineage-23.2" />
   <project name="LineageOS/android_device_lge_rs988" path="device/lge/rs988" remote="gh" revision="lineage-22.2" />
   <project name="xc112lg/android_device_lge_h870" path="device/lge/h870" remote="gh" revision="lineage-23.2" />
     <project name="xc112lg/android_device_lge_h870d" path="device/lge/h870d" remote="gh" revision="lineage-23.2" />
