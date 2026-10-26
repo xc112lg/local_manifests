@@ -55,9 +55,6 @@
   </project>
 
 
-  <remove-project path="hardware/qcom-caf/msm8996/audio" />
-  <remove-project path="hardware/qcom-caf/msm8996/display" />
-  <remove-project path="hardware/qcom-caf/msm8996/media" />
   
 
 <project path="hardware/qcom-caf/msm8996/audio" name="Inkypen79/android_hardware_qcom-caf_msm8996_audio" remote="gh" revision="lineage-23.2" groups="qcom" clone-depth="1" />
