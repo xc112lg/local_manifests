@@ -32,6 +32,7 @@
 
 
 
+  <remove-project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom" remote="lineageos" />
 
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom" remote="lineageos" >
     <!-- add guard for AOSP hardware/qcom dir -->
