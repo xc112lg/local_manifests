@@ -33,7 +33,7 @@
  
 <remove-project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" revision="lineage-23.2" remote="axion" />
 
-    <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom" >
+<project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" revision="lineage-23.2" remote="axion" />
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
